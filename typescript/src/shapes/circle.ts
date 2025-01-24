@@ -1,6 +1,6 @@
 import { Shape } from "./shape"
 
-class circle implements Shape {
+class Circle implements Shape {
         private radius: number;
 
         constructor(radius: number){
@@ -8,14 +8,13 @@ class circle implements Shape {
         }
 
         getArea(): number {
-            return Math.PI * this.radius * this.radius
+            return Math.PI * this.radius * this.radius;
         }
 
 
         computeArea: function (): number {
-            return Math.PI * radius * radius
+            return Math.PI * radius * radius;
         }
-=
 }
 
-export { circle }
+export { Circle }
