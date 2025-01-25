@@ -1,6 +1,4 @@
-import { newRenderer } from "./renderer.js"
-import { Rectangle, newRectangle } from "./shapes/rectangle.js";
+import { Rectangle } from "./shapes/rectangle";
 
-const rectangle: Rectangle = newRectangle(2, 3)
-const renderer = newRenderer(rectangle)
-renderer.draw();
+const rect = new Rectangle(10, 5);
+console.log("Rectangle Area:", rect.computeArea());
