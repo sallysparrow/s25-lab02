@@ -10,10 +10,14 @@ public class Renderer {
     }
 
     public void draw() {
+<<<<<<< HEAD
         System.o
 
 
         
+=======
+        shape.draw();
+>>>>>>> 834cdfeac1227a17aca56352edb332be1e34ce29
     }
 }
 
